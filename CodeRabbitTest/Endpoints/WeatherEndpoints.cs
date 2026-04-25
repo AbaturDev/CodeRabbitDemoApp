@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace CodeRabbitTest.Endpoints;
 
 public static class WeatherEndpoints
@@ -23,10 +25,14 @@ public static class WeatherEndpoints
 
 		endpoints.MapPost("/weathers", (CreateWeatherRequest request) =>
 		{
+			var temperatureC = request.TemperatureC > 30 
+				? request.TemperatureC 
+				: request.TemperatureC * 2;
+			
 			var weatherItem = new WeatherItem(
 				GetNextId(),
 				request.Date,
-				request.TemperatureC,
+				temperatureC,
 				request.Summary);
 
 			lock (SyncRoot)
@@ -36,6 +42,24 @@ public static class WeatherEndpoints
 
 			return Results.Created($"/weathers/{weatherItem.Id}", weatherItem);
 		});
+		
+		endpoints.MapPut("/weathers/{id:int}", (Tessttt request, [FromRoute] int id) =>
+		{
+			lock (SyncRoot)
+			{
+				var weatherItem = WeatherItems.First(x => x.Id == id);
+				
+				var updatedWeatherItem = weatherItem with
+				{
+					Date = request.What,
+					TemperatureC = request.TemperatureC,
+					Summary = request.Hmmm
+				};
+			}
+
+			return Results.Ok();
+		});
+		
 
 		return endpoints;
 	}
@@ -47,8 +71,17 @@ public static class WeatherEndpoints
 			return _nextId++;
 		}
 	}
+
+	private static string GenerateSummary(int x)
+	{
+		if (x > 0)
+			return "This is generated summary";
+		
+		return $"This is {x}";
+	}
 }
 
 public sealed record WeatherItem(int Id, DateOnly Date, int TemperatureC, string Summary);
 
 public sealed record CreateWeatherRequest(DateOnly Date, int TemperatureC, string Summary);
+public sealed record Tessttt(DateOnly What, int TemperatureC, string Hmmm);

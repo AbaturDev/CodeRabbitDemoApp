@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeRabbitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7060574feefc519cc6154433da9e1ab26415b82c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeRabbitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeRabbitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

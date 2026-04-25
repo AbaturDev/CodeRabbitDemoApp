@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj": {}
+    "d:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj": {}
   },
   "projects": {
-    "D:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj": {
+    "d:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj",
+        "projectUniqueName": "d:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj",
         "projectName": "CodeRabbitTest",
-        "projectPath": "D:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj",
+        "projectPath": "d:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj",
         "packagesPath": "C:\\Users\\alek\\.nuget\\packages\\",
-        "outputPath": "D:\\studia\\CodeRabbitTest\\CodeRabbitTest\\obj\\",
+        "outputPath": "d:\\studia\\CodeRabbitTest\\CodeRabbitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alek\\AppData\\Roaming\\NuGet\\NuGet.Config"
