@@ -15,4 +15,6 @@ app.UseHttpsRedirection();
 
 app.MapWeatherEndpoints();
 
+app.MapGet("/", () => "Hello World!");
+
 app.Run();
