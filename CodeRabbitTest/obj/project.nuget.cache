@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jIxeOehr/9s=",
+  "dgSpecHash": "LHPhH2C2Xv8=",
   "success": true,
-  "projectFilePath": "D:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj",
+  "projectFilePath": "d:\\studia\\CodeRabbitTest\\CodeRabbitTest\\CodeRabbitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alek\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
     "C:\\Users\\alek\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"

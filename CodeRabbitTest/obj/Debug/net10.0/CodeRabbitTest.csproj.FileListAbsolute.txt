@@ -31,3 +31,4 @@ d:\studia\CodeRabbitTest\CodeRabbitTest\obj\Debug\net10.0\refint\CodeRabbitTest.
 d:\studia\CodeRabbitTest\CodeRabbitTest\obj\Debug\net10.0\CodeRabbitTest.pdb
 d:\studia\CodeRabbitTest\CodeRabbitTest\obj\Debug\net10.0\CodeRabbitTest.genruntimeconfig.cache
 d:\studia\CodeRabbitTest\CodeRabbitTest\obj\Debug\net10.0\ref\CodeRabbitTest.dll
+d:\studia\CodeRabbitTest\CodeRabbitTest\obj\Debug\net10.0\CodeRabbitTest.sourcelink.json
