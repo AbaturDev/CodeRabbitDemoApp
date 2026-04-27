@@ -15,4 +15,7 @@ app.UseHttpsRedirection();
 
 app.MapWeatherEndpoints();
 
+if (app.Environment.IsDevelopment())
+    throw new Exception("Test");
+
 app.Run();
